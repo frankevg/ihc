@@ -1,0 +1,89 @@
+STUDENT  OUTCOME
+
+ABET - EAC -Student Outcome 7
+
+Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
+
+Criterio Específico
+Acciones realizadas
+Conclusiones
+Actualiza conocimientos necesarios para su desarrollo
+profesional y en especial para su proyecto en soluciones de tecnologías de la información
+Carlos Eduardo
+TB1:
+Realizó la descripción de la Solution Profile y los 
+Antecedentes de la problemática usando el método de las 5W y 2H´s.
+TB2:
+Realizó la descripción del Empathy Mapping.
+TP:
+Realizó el To-Be Scenario Mapping,
+las User Stories,
+el Impact Mapping
+y los ejemplos de Mobile Applications Wireframes
+y Mobile Applications
+Wireflow Diagrams
+Nelson Tineo 
+TB1:
+Realizó Lean Ux  Canvas y Segmentos objetivos.
+Entrevistas
+TB2: 
+User persona
+User Task Matrix
+TP:
+Product Backlog
+Landing Page UI Design
+Landing Page Wireframe
+Landing Page Mock-up
+
+TB2:
+Pablo Marcelo
+TB1:
+Realizó el Lean Ux Problem Statement.
+Entrevistas y Análisis competitivo
+General Style Guidelines y Web Style Guidelines
+TB2:
+
+Style Guidelines
+Entrevistas sobre la página web
+Features
+Auditorías recibidas.
+
+Dan Nakamura
+TB1:
+Realizó el Startup Profile y la Descripción del Startup
+TB2:
+TP: 
+Mobile Style Guidelines.                        
+iOS Mobile Style Guidelines.
+Android Mobile Style Guidelines.
+Frank Vegas
+TB1:
+Realizó el Lean UX Assumptions y el Lean UX Hypothesis
+TB2:
+Análisis entrevistas
+TP:
+Information Architecture
+Style Guidelines
+
+
+
+En conclusión, este proyecto surge como una respuesta a la necesidad evidente en el mercado peruano de contar con una plataforma eficiente y centralizada para la contratación de bandas folclóricas. La combinación de la falta de métodos modernos de búsqueda y contratación, la inseguridad en los contratos y la limitada visibilidad en línea de los artistas folclóricos crea una problemática que esta aplicación busca abordar de manera integral. Al proporcionar a los usuarios la capacidad de encontrar y seleccionar bandas de acuerdo con sus preferencias musicales y presupuesto, ofreciendo información confiable y reseñas de otros usuarios, y facilitando el proceso de contratación, nuestra aplicación tiene el potencial de transformar la forma en que se llevan a cabo eventos con música folclórica en el Perú. Este proyecto representa una oportunidad emocionante para satisfacer una demanda latente y brindar a los usuarios una experiencia más eficiente y segura al contratar artistas folclóricos, impulsando así la industria musical y cultural en el país.
+
+Al finalizar el curso, el estudiante diseña una propuesta innovadora de UX en base a la identificación de
+necesidades y oportunidades, incluyendo la selección de las interfaces y esquemas de interacción adecuados,
+considerando factores relevantes para el público objetivo.
+Competencia 1: Diseño en Ingeniería
+Nivel de logro: 2
+Definición: Demuestra capacidad de aplicar el diseño de ingeniería de Software para producir soluciones que
+satisfagan necesidades específicas con consideración de salud pública, seguridad y bienestar, así como factores
+globales, culturales, sociales, ambientales y económicos.
+Competencia 2: Pensamiento innovador
+Nivel de logro: 1
+Definición: Capacidad para detectar necesidades y oportunidades para generar proyecto o propuestas
+innovadoras, viables y rentables. Planifica y toma decisiones eficientes orientadas al objetivo del proyecto
+
+
+
+
+
