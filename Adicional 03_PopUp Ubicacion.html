@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup de Ubicación GPS</title>
+  <style>
+    body {
+      background-color: #f0f8ff; /* Celeste */
+    }
+
+    #miPopup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Botón para abrir el popup con la ubicación -->
+<button onclick="obtenerUbicacion()">Obtener Ubicación</button>
+
+<!-- Contenido del popup -->
+<div id="miPopup">
+  <p>Ubicación actual:</p>
+  <p id="ubicacion"></p>
+  <button onclick="cerrarPopup()">Cerrar</button>
+</div>
+
+<script>
+  // Función para abrir el popup y obtener la ubicación
+  function obtenerUbicacion() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(mostrarUbicacion, mostrarError);
+    } else {
+      alert("La geolocalización no es compatible con este navegador.");
+    }
+  }
+
+  // Función para mostrar la ubicación en el popup
+  function mostrarUbicacion(posicion) {
+    var ubicacion = "Latitud: " + posicion.coords.latitude + "<br>Longitud: " + posicion.coords.longitude;
+    document.getElementById("ubicacion").innerHTML = ubicacion;
+    document.getElementById("miPopup").style.display = "block";
+  }
+
+  // Función para mostrar un mensaje de error en caso de problemas con la geolocalización
+  function mostrarError(error) {
+    var mensaje = "Error al obtener la ubicación: ";
+    switch(error.code) {
+      case error.PERMISSION_DENIED:
+        mensaje += "Permiso denegado por el usuario.";
+        break;
+      case error.POSITION_UNAVAILABLE:
+        mensaje += "Información de ubicación no disponible.";
+        break;
+      case error.TIMEOUT:
+        mensaje += "Tiempo de espera agotado.";
+        break;
+      case error.UNKNOWN_ERROR:
+        mensaje += "Error desconocido.";
+        break;
+    }
+    alert(mensaje);
+  }
+
+  // Función para cerrar el popup
+  function cerrarPopup() {
+    document.getElementById("miPopup").style.display = "none";
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Desplegable</title>
+  <style>
+    /* Estilos opcionales para dar formato al menú desplegable */
+    body {
+	  background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    select {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Los platillos del día</h1>
+  <label for="opciones">Selecciona un platillo:</label>
+  <select id="opciones" name="opciones" onchange="mostrarSeleccion()">
+    <option value="opcion1">Arroz con pollo</option>
+    <option value="opcion2">Cebiche</option>
+    <option value="opcion3">Carapulcra</option>
+    <!-- Puedes agregar más opciones según sea necesario -->
+  </select>
+
+  <p id="opcionSeleccionada">La opción seleccionada es: </p>
+
+  <script>
+    function mostrarSeleccion() {
+      // Obtener el elemento select y el párrafo donde mostrar la opción seleccionada
+      var selectElement = document.getElementById("opciones");
+      var resultadoElement = document.getElementById("opcionSeleccionada");
+
+      // Obtener el valor seleccionado
+      var opcionSeleccionada = selectElement.value;
+
+      // Actualizar el contenido del párrafo
+      resultadoElement.textContent = "La opción seleccionada es: " + opcionSeleccionada;
+    }
+  </script>
+</body>
+</html>
